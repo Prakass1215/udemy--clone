@@ -70,8 +70,10 @@ body{
     display: block;
 }
 .categories p:hover{
+    transition: 1s;
     background-color: transparent;
     color: black;
+    border: solid black 1px;
 }
 
 .categories{
@@ -85,7 +87,9 @@ body{
     background-color: #a435f0;
     color: white;
     padding: 5px;
-    border-radius: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: solid black 1px;
 }
 .sale-image img{
     width: 100%;
